@@ -70,15 +70,19 @@ button:hover {
     justify-content: center;
 }
 .login button{
-    border-radius: 20px;
     width: 90px;
     height: 40px;
 
+    border: white;
+    border-radius: 20px;
+
     text-align: center;
 }
-.login button:hover{
+.login-btn:hover{
     border: 1px solid black;
-    border-radius: 20px;
+   
+
+    transition: 0.8s;
 }
 .btoom{
     height: 30px;

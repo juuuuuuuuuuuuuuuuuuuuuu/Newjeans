@@ -12,20 +12,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 <body>
     <div id="head">
         <span class="top">
             <div class="logo1">
-                <img src="logo1.png" alt="logo">
+                <img src="images/logo1.png" alt="logo">
             </div>
 
             <span class="login">
                 <div class="sign-in">
-                    <button>sign-in<!-- <i class="fa-solid fa-right-to-bracket"></i> --></button>
+                    <button class="login-btn">sign-in<!-- <i class="fa-solid fa-right-to-bracket"></i> --></button>
                 </div>
                 <div class="sign-up">
-                    <button>sign-up<!--<i class="fa-solid fa-door-open"></i> --></button>
+                    <button class="login-btn">sign-up<!--<i class="fa-solid fa-door-open"></i> --></button>
                 </div>
             </span>
         </span>
@@ -39,7 +41,8 @@
                 <li class="menu3">menu3</li>
                 <li class="menu4">menu4</li>
             </ul>
-            <div class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
+            <!--물음표를 인풋 안에 넣기(인풋은 볼더에 가려져서 그렇지 잘 작동중)-->
+            <input type="text" class="search"><i class="fa-solid fa-magnifying-glass"></i></div>
         </span>
         <hr>
     </div>
@@ -49,5 +52,7 @@
     <div id="notice"></div>
 
     <div id="footer"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
